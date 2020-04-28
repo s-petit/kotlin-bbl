@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afe57ee8-31fb-49f4-8471-67b49992bd1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/enjoycode/kotlinbbl/VideoGame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/enjoycode/kotlinbbl/VideoGameJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/enjoycode/kotlinbbl/VideoGameType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/enjoycode/kotlinbbl/VideoGameTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b9ysroVS65HQ5BKfjMnxxG6sll" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.enjoycode.kotlinbbl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.enjoycode.kotlinbbl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com.enjoycode" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/kotlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.VideoGameTest">
+    <configuration name="VideoGameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.enjoycode.kotlinbbl.VideoGameTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VideoGameTest.equals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.enjoycode.kotlinbbl.VideoGameTest.equals&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VideoGameTest.toString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.enjoycode.kotlinbbl.VideoGameTest.toString&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.VideoGameTest" />
+        <item itemvalue="Gradle.VideoGameTest.toString" />
+        <item itemvalue="Gradle.VideoGameTest.equals" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1588065032250">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588065032250" />
+    <state x="610" y="401" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588064602011">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="610" y="401" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588064602011" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588064624185">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588064624185" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1588068048670">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588068048670" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1588068048654">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588068048654" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1588068048653">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588068048653" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1588068048655">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588068048655" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1588067424954">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588067424954" />
+    <state x="627" y="309" key="chooseDestDirectoryDialog" timestamp="1588059726813">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="627" y="309" key="chooseDestDirectoryDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588059726813" />
+    <state x="467" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588065600956">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="467" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588065600956" />
+    <state x="609" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588063432606">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="609" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588063432606" />
+    <state x="609" y="290" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1588059751830">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="609" y="290" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588059751830" />
+  </component>
+</project>
