@@ -29,13 +29,14 @@ public class Supermarket {
 
     @Demonstration(why = "template string, extension methods")
     public String contact() {
-        return "Tel: " + phoneNumber + " - Address: " + address(locationDetails);
+        return "Tel: " + phoneNumber + " - Address:\n" +
+                address(locationDetails);
     }
 
     @Demonstration(why = "multiline string")
     private String address(LocationDetails locationDetails) {
         return locationDetails.getNumber() + ", " + locationDetails.getStreet() + "\n" +
-                locationDetails.getZipCode() + " " + locationDetails.getCity();
+                locationDetails.getZipCode() + " " + locationDetails.getCity() + "\n";
     }
 
     @Demonstration(why = "collection and lambdas")

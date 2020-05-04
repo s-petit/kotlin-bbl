@@ -14,7 +14,9 @@ class SupermarketTest {
         val supermarket = Supermarket(emptyList(), location, "0612345667")
 
         assertThat(supermarket.contact())
-                .isEqualTo("Tel: 0612345667 - Address: 23, rue Gambetta\n75001 Paris")
+                .isEqualTo("Tel: 0612345667 - Address:\n" +
+                        "23, rue Gambetta\n" +
+                        "75001 Paris\n")
     }
 
     @Demonstration(why = "concise lambdas")
