@@ -12,11 +12,16 @@ class Supermarket(@Demonstration(why = "named param + default value")
 
     @Demonstration(why = "template string, extension methods")
     fun contact(): String {
-        return "Tel: $phoneNumber - Address:${address(locationDetails)}"
+        val address = locationDetails.address()
+        return "Tel: $phoneNumber - Address:$address"
     }
 
+    fun toto(list: List<String>): String = if (list.isNotBlank()) "ok" else "ko"
+
+    private fun List<String>.isNotBlank(): Boolean = this != null && !this.isEmpty()
+
     @Demonstration(why = "multiline string")
-    private fun address(locationDetails: LocationDetails): String {
+    private fun LocationDetails.address(): String {
         return """
             
             ${locationDetails.number}, ${locationDetails.street}
