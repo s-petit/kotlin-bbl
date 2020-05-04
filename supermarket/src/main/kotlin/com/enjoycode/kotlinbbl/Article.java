@@ -2,17 +2,16 @@ package com.enjoycode.kotlinbbl;
 
 import java.util.Objects;
 
-public class VideoGameJava {
+@Demonstration(why = "data class")
+public class Article {
 
     private static final Double VAT_RATE = 0.2;
 
     private final String name;
-    private final String type;
     private final Double price;
 
-    public VideoGameJava(String name, String type, Double price) {
+    public Article(String name, Double price) {
         this.name = name;
-        this.type = type;
         this.price = price;
     }
 
@@ -28,27 +27,25 @@ public class VideoGameJava {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        VideoGameJava that = (VideoGameJava) o;
+        Article that = (Article) o;
         return Objects.equals(name, that.name) &&
-                Objects.equals(type, that.type) &&
                 Objects.equals(price, that.price);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, type, price);
+        return Objects.hash(name, price);
     }
 
     @Override
     public String toString() {
-        return "VideoGameJava(" +
+        return "Article(" +
                 "name=" + name +
-                ", type=" + type +
                 ", price=" + price +
                 ')';
     }
 
-    public VideoGameJava copy() {
-        return new VideoGameJava(name, type, price);
+    public Article copy() {
+        return new Article(name, price);
     }
 }
