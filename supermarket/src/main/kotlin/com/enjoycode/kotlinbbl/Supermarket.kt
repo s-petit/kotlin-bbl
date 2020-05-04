@@ -12,15 +12,17 @@ class Supermarket(@Demonstration(why = "named param + default value")
 
     @Demonstration(why = "template string, extension methods")
     fun contact(): String {
-        return "Tel: $phoneNumber - Address: ${address(locationDetails)}"
+        return "Tel: $phoneNumber - Address:${address(locationDetails)}"
     }
 
     @Demonstration(why = "multiline string")
     private fun address(locationDetails: LocationDetails): String {
         return """
+            
             ${locationDetails.number}, ${locationDetails.street}
             ${locationDetails.zipCode} ${locationDetails.city}
-            """
+            
+            """.trimIndent()
     }
 
     @Demonstration(why = "collection and lambdas")
