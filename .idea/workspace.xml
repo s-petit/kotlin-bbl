@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe57ee8-31fb-49f4-8471-67b49992bd1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/location/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/location/src/main/kotlin/com/enjoycode/location/LocationDetails.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Demonstration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/DepartmentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/GasPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Supermarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/test/kotlin/com/enjoycode/kotlinbbl/ArticleTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/test/kotlin/com/enjoycode/kotlinbbl/DepartmentTypeTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supermarket/src/test/kotlin/com/enjoycode/kotlinbbl/SupermarketTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Article.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/DepartmentType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/enjoycode/kotlinbbl/VideoGame.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/enjoycode/kotlinbbl/VideoGameJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/enjoycode/kotlinbbl/VideoGameType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/enjoycode/kotlinbbl/VideoGameTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermarket/src/main/kotlin/com/enjoycode/kotlinbbl/DepartmentType.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +93,26 @@
       <recent name="com.enjoycode.kotlinbbl" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SupermarketTest">
+  <component name="RunManager" selected="Gradle.ArticleTest">
+    <configuration name="ArticleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.enjoycode.kotlinbbl.ArticleTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":supermarket:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ArticleTest.to String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,25 +138,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.enjoycode.kotlinbbl.DepartmentTypeTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":supermarket:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NutriscoreTest.nutriscore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.enjoycode.kotlinbbl.NutriscoreTest.nutriscore&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -210,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArticleTest" />
         <item itemvalue="Gradle.SupermarketTest" />
         <item itemvalue="Gradle.SupermarketTest.total gas station sales" />
         <item itemvalue="Gradle.ArticleTest.to String" />
         <item itemvalue="Gradle.DepartmentTypeTest" />
-        <item itemvalue="Gradle.NutriscoreTest.nutriscore" />
       </list>
     </recent_temporary>
   </component>
@@ -241,40 +222,41 @@
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588064624185" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588624605660" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1588625379944">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1588628409572">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588600651438" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1588625379944" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1588625379943">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1588628409572" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1588628409571">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588600651435" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1588625379943" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1588625379942">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1588628409571" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1588628409570">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588600651434" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1588625379942" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1588625379944">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1588628409570" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1588628409572">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588600651437" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1588625379944" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1588626900510">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1588628409572" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1588628307361">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588600958198" />
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1588626900510" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1588628307361" />
     <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1588580842865" />
     <state x="627" y="309" key="chooseDestDirectoryDialog" timestamp="1588059726813">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="627" y="309" key="chooseDestDirectoryDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588059726813" />
-    <state x="467" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588599335486">
+    <state x="467" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588628210969">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="467" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588599335486" />
+    <state x="467" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1588628210969" />
     <state x="609" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588600368868">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -288,10 +270,10 @@
     </state>
     <state x="683" y="308" key="refactoring.ChangeSignatureDialog/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588580031735" />
     <state x="683" y="308" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588624654753" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1588625098428">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1588627894672">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-110.-1080.1920.1080@0.0.1680.1050" timestamp="1588578977618" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1588625098428" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1588627894672" />
   </component>
 </project>
