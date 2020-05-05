@@ -14,7 +14,12 @@ class Supermarket(@Demonstration(why = "named param + default value")
     @Demonstration(why = "template string, extension methods")
     fun contact(): String {
         val address = locationDetails.address()
-        return "Tel: $phoneNumber - Address:$address"
+        return """
+                |{
+                    |"tel" : "$phoneNumber",
+                    |"address" : "$address"
+                |}
+            """.trimMargin().trimIndent()
     }
 
     fun toto(list: List<String>): String = if (list.isNotBlank()) "ok" else "ko"
@@ -23,12 +28,7 @@ class Supermarket(@Demonstration(why = "named param + default value")
 
     @Demonstration(why = "multiline string")
     private fun LocationDetails.address(): String {
-        return """
-            
-            ${this.number}, ${this.street}
-            ${this.zipCode} ${this.city}
-            
-            """.trimIndent()
+        return """${this.number}, ${this.street} ${this.zipCode} ${this.city}"""
     }
 
     @Demonstration(why = "collection and lambdas")
