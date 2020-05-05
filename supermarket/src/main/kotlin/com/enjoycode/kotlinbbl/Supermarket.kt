@@ -3,6 +3,9 @@ package com.enjoycode.kotlinbbl
 import com.enjoycode.kotlinbbl.documentation.Demonstration
 import com.enjoycode.location.LocationDetails
 
+sealed class WithSales
+fun List<String>.isNotBlank(): Boolean = this != null && !this.isEmpty()
+
 class Supermarket(@Demonstration(why = "named param + default value")
                   private val departments: List<Department>,
                   private val locationDetails: LocationDetails,
@@ -24,11 +27,9 @@ class Supermarket(@Demonstration(why = "named param + default value")
 
     fun toto(list: List<String>): String = if (list.isNotBlank()) "ok" else "ko"
 
-    private fun List<String>.isNotBlank(): Boolean = this != null && !this.isEmpty()
-
     @Demonstration(why = "multiline string")
     private fun LocationDetails.address(): String {
-        return """${this.number}, ${this.street} ${this.zipCode} ${this.city}"""
+        return "${this.number}, ${this.street} ${this.zipCode} ${this.city}"
     }
 
     @Demonstration(why = "collection and lambdas")
@@ -39,4 +40,9 @@ class Supermarket(@Demonstration(why = "named param + default value")
 
     @Demonstration(why = "collection and lambdas")
     fun allStock(): Int = departments.flatMap { it.stocks }.sumBy { it.quantity }
+
+
+    fun departmentSales(department: Department): Int {
+        return department.sales
+    }
 }

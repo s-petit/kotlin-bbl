@@ -7,16 +7,6 @@ enum class DepartmentType {
     DAIRY, BAKERY, VEGETABLES, DRINKS;
 
     companion object {
-        fun fromString(string: String): DepartmentType {
-            return when (string.toUpperCase()) {
-                "DAIRY" -> DAIRY
-                "BAKERY" -> BAKERY
-                "VEGETABLES" -> VEGETABLES
-                "DRINKS" -> DRINKS
-                else -> throw IllegalArgumentException()
-            }
-        }
-
         fun vegan(departmentType: DepartmentType?): String {
             return when (departmentType) {
                 DAIRY -> "Pas vegan"
@@ -25,6 +15,7 @@ enum class DepartmentType {
             }
         }
 
+        // smart cast
         fun increment(obj: Any): Int {
             return when (obj) {
                 is Int -> obj + 1
@@ -32,5 +23,29 @@ enum class DepartmentType {
                 else -> 0
             }
         }
+
+        fun doTheMath(mathOperation: MathOperation): Int {
+            return when (mathOperation) {
+                is Multiply -> mathOperation.e1 * mathOperation.e2
+                is Sum -> mathOperation.e1 + mathOperation.e2
+                is Power -> mathOperation.e1 * mathOperation.e1
+            }
+        }
+/*
+        fun doTheMath(plop: Plop): Int {
+            return when (plop) {
+                is String ->
+                else ->
+            }
+        }
+        */
     }
 }
+
+open class Plop()
+
+//sealed class
+sealed class MathOperation
+data class Multiply(val e1: Int, val e2: Int) : MathOperation()
+data class Sum(val e1: Int, val e2: Int) : MathOperation()
+data class Power(val e1: Int) : MathOperation()
