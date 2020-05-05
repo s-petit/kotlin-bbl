@@ -1,5 +1,6 @@
 package com.enjoycode.kotlinbbl;
 
+import com.enjoycode.kotlinbbl.documentation.Demonstration;
 import com.enjoycode.location.LocationDetails;
 
 import java.util.List;
@@ -33,10 +34,12 @@ public class Supermarket {
                 address(locationDetails);
     }
 
-    @Demonstration(why = "multiline string")
+    @Demonstration(why = "multiline string + getters")
     private String address(LocationDetails locationDetails) {
-        return locationDetails.getNumber() + ", " + locationDetails.getStreet() + "\n" +
-                locationDetails.getZipCode() + " " + locationDetails.getCity() + "\n";
+        return locationDetails.getNumber() + ", " +
+                locationDetails.getStreet() + "\n" +
+                locationDetails.getZipCode() + " " +
+                locationDetails.getCity() + "\n";
     }
 
     @Demonstration(why = "collection and lambdas")
@@ -59,7 +62,7 @@ public class Supermarket {
     public Integer allStock() {
         return departments.stream()
                 .flatMap(department -> department.getStocks().stream())
-                .map(Stock::getStock)
+                .map(Department.Stock::getQuantity)
                 .reduce(0, Integer::sum);
     }
 }

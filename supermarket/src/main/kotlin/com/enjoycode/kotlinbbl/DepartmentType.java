@@ -1,24 +1,10 @@
 package com.enjoycode.kotlinbbl;
 
+import com.enjoycode.kotlinbbl.documentation.Demonstration;
+
 @Demonstration(why = "When kotlin")
 public enum DepartmentType {
     DAIRY, BAKERY, VEGETABLES, DRINKS;
-
-    public static DepartmentType fromString(String string) {
-        String upper = string.toUpperCase();
-        switch (upper) {
-            case "DAIRY":
-                return DAIRY;
-            case "BAKERY":
-                return BAKERY;
-            case "VEGETABLES":
-                return VEGETABLES;
-            case "DRINKS":
-                return DRINKS;
-            default:
-                throw new IllegalArgumentException();
-        }
-    }
 
     public static String vegan(DepartmentType departmentType) {
         switch (departmentType) {

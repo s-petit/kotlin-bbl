@@ -1,5 +1,7 @@
 package com.enjoycode.kotlinbbl;
 
+import com.enjoycode.kotlinbbl.documentation.Demonstration;
+
 import java.util.Objects;
 
 @Demonstration(why = "data class")

@@ -1,4 +1,4 @@
-package com.enjoycode.kotlinbbl;
+package com.enjoycode.kotlinbbl.documentation;
 
 import java.lang.annotation.*;
 
