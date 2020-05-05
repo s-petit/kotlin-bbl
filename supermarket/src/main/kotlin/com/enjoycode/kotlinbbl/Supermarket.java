@@ -28,18 +28,21 @@ public class Supermarket {
         this.gasStation = null;
     }
 
-    @Demonstration(why = "template string, extension methods")
+    @Demonstration(why = "template string, multiline string")
     public String contact() {
-        return "Tel: " + phoneNumber + " - Address:\n" +
-                address(locationDetails);
+
+        return "{\n" +
+                "\"tel\" : \"" + phoneNumber + "\",\n" +
+                "\"address\" : \"" + address(locationDetails) + "\"\n" +
+                "}";
     }
 
-    @Demonstration(why = "multiline string + getters")
+    @Demonstration(why = "extension methods + getter from dataclass")
     private String address(LocationDetails locationDetails) {
         return locationDetails.getNumber() + ", " +
-                locationDetails.getStreet() + "\n" +
+                locationDetails.getStreet() + " " +
                 locationDetails.getZipCode() + " " +
-                locationDetails.getCity() + "\n";
+                locationDetails.getCity();
     }
 
     @Demonstration(why = "collection and lambdas")

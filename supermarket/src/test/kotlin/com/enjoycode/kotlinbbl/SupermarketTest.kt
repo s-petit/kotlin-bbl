@@ -10,14 +10,17 @@ class SupermarketTest {
 
     @Demonstration(why = "String templates, Multi-lines strings, Method extension")
     @Test
-    fun `format address`() {
+    fun `format address to json`() {
         val location = LocationDetails("23", "rue Gambetta", "75001", "Paris")
         val supermarket = Supermarket(emptyList(), location, "0612345667")
 
-        assertThat(supermarket.contact())
-                .isEqualTo("Tel: 0612345667 - Address:\n" +
-                        "23, rue Gambetta\n" +
-                        "75001 Paris\n")
+        @Demonstration(why = "multiline")
+        val expectedJson = "{\n" +
+                "\"tel\" : \"0612345667\",\n" +
+                "\"address\" : \"23, rue Gambetta 75001 Paris\"\n" +
+                "}"
+
+        assertThat(supermarket.contact()).isEqualTo(expectedJson)
     }
 
     @Demonstration(why = "concise lambdas")
