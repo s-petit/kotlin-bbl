@@ -1,5 +1,7 @@
 package com.enjoycode.kotlinbbl
 
+import com.enjoycode.kotlinbbl.documentation.Demonstration
+
 @Demonstration(why = "data class, higher order functions")
 data class Article(private val name: String, private val price: Double) {
     fun vatPrice(): Double = multiply.invoke(price, VAT_RATE)

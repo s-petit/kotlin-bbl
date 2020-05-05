@@ -1,13 +1,14 @@
 package com.enjoycode.kotlinbbl
 
+import com.enjoycode.kotlinbbl.documentation.Demonstration
+
 @Demonstration(why = "When kotlin, smart cast")
 enum class DepartmentType {
     DAIRY, BAKERY, VEGETABLES, DRINKS;
 
     companion object {
         fun fromString(string: String): DepartmentType {
-            val upper = string.toUpperCase()
-            return when (upper) {
+            return when (string.toUpperCase()) {
                 "DAIRY" -> DAIRY
                 "BAKERY" -> BAKERY
                 "VEGETABLES" -> VEGETABLES

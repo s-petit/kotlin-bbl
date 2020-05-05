@@ -11,4 +11,19 @@ public class GasStation {
     public GasPrice getGasPrice() {
         return gasPrice;
     }
+
+    public static class GasPrice {
+
+        private final Double pricePerLiter;
+        private final Double purchasedLiters;
+
+        public GasPrice(Double pricePerLiter, Double purchasedLiters) {
+            this.pricePerLiter = pricePerLiter;
+            this.purchasedLiters = purchasedLiters;
+        }
+
+        public Double totalSales() {
+            return pricePerLiter * purchasedLiters;
+        }
+    }
 }

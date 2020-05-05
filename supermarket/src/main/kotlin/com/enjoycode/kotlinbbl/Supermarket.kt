@@ -1,5 +1,6 @@
 package com.enjoycode.kotlinbbl
 
+import com.enjoycode.kotlinbbl.documentation.Demonstration
 import com.enjoycode.location.LocationDetails
 
 class Supermarket(@Demonstration(why = "named param + default value")
@@ -24,8 +25,8 @@ class Supermarket(@Demonstration(why = "named param + default value")
     private fun LocationDetails.address(): String {
         return """
             
-            ${locationDetails.number}, ${locationDetails.street}
-            ${locationDetails.zipCode} ${locationDetails.city}
+            ${this.number}, ${this.street}
+            ${this.zipCode} ${this.city}
             
             """.trimIndent()
     }
@@ -37,5 +38,5 @@ class Supermarket(@Demonstration(why = "named param + default value")
     fun gasStationSales(): Double = gasStation?.gasPrice?.totalSales() ?: 0.0
 
     @Demonstration(why = "collection and lambdas")
-    fun allStock(): Int = departments.flatMap { it.stocks }.sumBy { it.stock }
+    fun allStock(): Int = departments.flatMap { it.stocks }.sumBy { it.quantity }
 }
